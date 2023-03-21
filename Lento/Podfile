@@ -1,0 +1,26 @@
+platform :ios, '13.0'
+
+#source 'https://github.com/CocoaPods/Specs.git'
+
+
+target 'Lento' do
+  
+  pod 'SnapKit', '~> 5.0.1'
+  pod 'IGListKit', '3.4.0', :modular_headers => true
+  pod 'SkeletonView', '~> 1.26.0'
+  pod 'ObjectMapper', '~> 4.2.0'
+  pod 'Moya', '~> 15.0.0'
+  pod 'ReactorKit', '~> 3.2.0'
+  pod 'RxCocoa', '6.5.0'
+  pod 'RxViewController', '~> 2.0.0'
+  pod 'Kingfisher', '~> 7.3.0'
+#  pod 'Moya-ObjectMapper', '~> 2.9'
+  pod 'JXPagingView/Paging', '2.0.13'
+  pod 'JXSegmentedView'
+  pod 'KMNavigationBarTransition'
+  pod 'MJRefresh'
+  pod 'JXPagingView/Paging'
+#  pod 'DebuggerKit', :path =>'../DebuggerKit/DebuggerKit/..'
+  pod 'DDHomeModule', :path =>'../DDHomeModule/DDHomeModule/..'
+  
+end

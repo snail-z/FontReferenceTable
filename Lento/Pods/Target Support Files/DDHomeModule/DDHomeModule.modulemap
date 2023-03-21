@@ -1,0 +1,6 @@
+module DDHomeModule {
+  umbrella header "DDHomeModule-umbrella.h"
+
+  export *
+  module * { export * }
+}
