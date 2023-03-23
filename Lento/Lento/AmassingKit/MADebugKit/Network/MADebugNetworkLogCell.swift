@@ -11,8 +11,8 @@ class MADebugNetworkLogCell: UITableViewCell {
 
     override func awakeFromNib() {
         super.awakeFromNib()
-        self.subviews.forEach { <#UIView#> in
-            <#code#>
+        self.subviews.forEach {  in
+        
         }
         // Initialization code
     }
