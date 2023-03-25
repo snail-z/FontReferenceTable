@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import LentoBaseKit
 
 class LentoBaseTabBarController: UITabBarController {
 

@@ -6,6 +6,9 @@
 //
 
 import UIKit
+import AmassingUI
+import LentoBaseKit
+import LentoFeedModule
 
 class SidebarViewController: LentoBaseViewController {
 
@@ -19,9 +22,9 @@ class SidebarViewController: LentoBaseViewController {
         view.backgroundColor = .orange
         
         visorTab = UIView()
-        let pan = MKScreenEdgePanGestureRecognizer(target: self, action: #selector(didPan))
-        pan.edges = .left
-        visorTab.addGestureRecognizer(pan)
+//        let pan = MKScreenEdgePanGestureRecognizer(target: self, action: #selector(didPan))
+//        pan.edges = .left
+//        visorTab.addGestureRecognizer(pan)
         view.addSubview(visorTab)
         visorTab.snp.makeConstraints { make in
             make.edges.equalToSuperview()

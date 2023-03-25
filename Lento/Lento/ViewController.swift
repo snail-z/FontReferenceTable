@@ -9,6 +9,10 @@ import UIKit
 import SnapKit
 import RxSwift
 import RxCocoa
+import AmassingExtensions
+import AmassingUI
+import LentoBaseKit
+import LentoFeedModule
 
 class ViewController: UIViewController {
 
@@ -137,13 +141,13 @@ extension ViewController: UITableViewDelegate {
         }
         
         if value == "MAPageListViewController" {
-            let vc = MAPageListViewController()
-            navigationController?.pushViewController(vc, animated: true)
+//            let vc = MAPageListViewController()
+//            navigationController?.pushViewController(vc, animated: true)
         }
         
         if value == "MAPopupViewController" {
-            let vc = MAPopupViewController()
-            navigationController?.pushViewController(vc, animated: true)
+//            let vc = MAPopupViewController()
+//            navigationController?.pushViewController(vc, animated: true)
         }
     }
 }

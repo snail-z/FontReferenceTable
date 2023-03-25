@@ -10,28 +10,10 @@ import UIKit
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
     var window: UIWindow?
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        
-//        let backIMage = UIImage(named: "back_icon")
-//        UIBarButtonItem.appearance().setBackButtonBackgroundImage(backIMage, for: .normal, barMetrics: .default)
-//        UIBarButtonItem.appearance().setBackButtonTitlePositionAdjustment(UIOffset(horizontal: .leastNormalMagnitude, vertical: .leastNormalMagnitude), for: .default)
-//
-//        UINavigationBar.appearance().backIndicatorImage = UIImage()
-//        UINavigationBar.appearance().backIndicatorTransitionMaskImage = UIImage()
-        
-//        if #available(iOS 15.0, *) {
-//            let navigationBarAppearance = UINavigationBarAppearance()
-//            let backIMage = UIImage(named: "back_light")
-//            navigationBarAppearance.setBackIndicatorImage(backIMage, transitionMaskImage: backIMage)
-//            UINavigationBar.appearance().tintColor = .red
-//            UINavigationBar.appearance().scrollEdgeAppearance = navigationBarAppearance
-//            UINavigationBar.appearance().standardAppearance = navigationBarAppearance
-            
-//        }
         
         let tabbarVC = LentoBaseTabBarController()
         window?.rootViewController = tabbarVC
