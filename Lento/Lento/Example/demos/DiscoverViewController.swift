@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import LentoFeedModule
 
 class DiscoverViewController: UIViewController {
 
